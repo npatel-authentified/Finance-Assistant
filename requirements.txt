@@ -1,0 +1,15 @@
+langchain>=1.2.3
+langchain-community>=0.3.20
+pypdf>=5.1.0
+docx2txt>=0.8
+langchain-classic>=1.0.1
+langchain-pinecone>=0.2.13
+langchain-openai>=1.1.7
+python-dotenv>=1.0.0
+pinecone>=5.0.0
+langgraph>=0.2.0
+yfinance>=1.0
+python-dateutil>=2.8.2
+gradio>=6.3.0
+fastapi>=0.115.0
+uvicorn>=0.32.0

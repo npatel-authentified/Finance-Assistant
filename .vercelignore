@@ -1,0 +1,51 @@
+# Vercel Ignore File
+# Files and directories to exclude from Vercel deployment
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Development files
+.git/
+.github/
+.vscode/
+.idea/
+.claude/
+
+# Tests
+tests/
+pytest.ini
+
+# Documentation
+*.md
+!README.md
+LANGGRAPH_IMPLEMENTATION.md
+STREAMING_EXPLANATION.md
+WEB_UI_GUIDE.md
+web_app/README.md
+web_app/TROUBLESHOOTING.md
+
+# Generated files
+*.pyc
+__pycache__/
+*.log
+.DS_Store
+
+# Local data
+*.db
+*.sqlite
+checkpoints/
+
+# Images
+*.png
+financial_assistant_graph.png
+
+# Development scripts
+main_langgraph.py
+run_webapp.py
+uv.lock
+.python-version
+
+# Environment template
+.env.example
